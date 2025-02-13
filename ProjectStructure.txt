@@ -1,0 +1,39 @@
+Secure Login System Project Structure:
+
+secure_login/
+│
+├── secure_login/
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+│
+├── authentication/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── forms.py
+│   ├── models.py
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+│
+├── templates/
+│   └── authentication/
+│       ├── base.html
+│       ├── login.html
+│       ├── register.html
+│       └── mfa_verify.html
+│
+├── static/
+│   ├── css/
+│   │   └── styles.css
+│   └── js/
+│       └── mfa.js
+│
+├── media/
+│
+├── manage.py
+├── requirements.txt
+└── README.md
